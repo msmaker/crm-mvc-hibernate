@@ -1,12 +1,12 @@
-package com.msmaker.springdemo.dao;
+package com.msmaker.springdemo.service;
 
 import java.util.List;
 
 import com.msmaker.springdemo.entity.Customer;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
-	public List<Customer> getCustomers();
+	public List<Customer>getCustomers();
 
 	public void saveCustomer(Customer theCustomer);
 
